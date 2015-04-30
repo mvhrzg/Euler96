@@ -1,1 +1,3 @@
-build/Debug/MinGW-Windows/sudokuMain.o: sudokuMain.cpp
+build/Debug/MinGW-Windows/sudokuMain.o: sudokuMain.cpp Sudoku.h
+
+Sudoku.h:

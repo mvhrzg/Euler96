@@ -1,6 +1,6 @@
 /* 
  * File:   Sudoku.cpp
- * Author: MHerzog
+ * Author: Mariana Herzog
  * 
  * Created on April 29, 2015, 7:32 PM
  */
@@ -17,7 +17,7 @@ Sudoku::Sudoku(Sudoku *orig) {
 
 }
 
-Sudoku::Sudoku* solve(){
+Sudoku* Sudoku::solve(){
     
 }
 
@@ -29,7 +29,7 @@ void Sudoku::markPossible(int index, int value){
     
 }
 
-Sudoku::solveRec(int pos, Sudoku* grid){
+Sudoku* Sudoku::solveRec(int pos, Sudoku* grid){
     
 }
 

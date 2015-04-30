@@ -1,6 +1,6 @@
 /* 
  * File:   sudoku.cpp
- * Author: MHerzog
+ * Author: Mariana Herzog
  *
  * Created on April 10, 2015, 5:09 PM
  */
@@ -9,6 +9,7 @@
 #include <fstream>
 #include <iomanip>
 #include <iostream>
+#include "Sudoku.h"
 
 using namespace std;
 
@@ -18,6 +19,7 @@ using namespace std;
 int main(int argc, char** argv) {
     ifstream sudoku("sudoku.txt");
     string values;
+    string gridStr;    //not sure if needed
     string grid[9];
     int sum = 0;
     while (!sudoku.eof()) {

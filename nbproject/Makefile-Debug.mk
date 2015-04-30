@@ -66,12 +66,12 @@ ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/sudoku.exe: ${OBJECTFILES}
 ${OBJECTDIR}/Sudoku.o: Sudoku.cpp 
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
-	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Sudoku.o Sudoku.cpp
+	$(COMPILE.cc) -g -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Sudoku.o Sudoku.cpp
 
 ${OBJECTDIR}/sudokuMain.o: sudokuMain.cpp 
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
-	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/sudokuMain.o sudokuMain.cpp
+	$(COMPILE.cc) -g -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/sudokuMain.o sudokuMain.cpp
 
 # Subprojects
 .build-subprojects:
